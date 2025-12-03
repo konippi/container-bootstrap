@@ -1,0 +1,19 @@
+{
+  "name": "k8s-bootstrap",
+  "version": "0.1.0",
+  "description": "Materials for learning Kubernetes",
+  "author": "Kyosuke Konishi (konippi@amazon.co.jp) <https://github.com/konippi>",
+  "packageManager": "pnpm@10.24.0",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "markdownlint-cli2",
+    "lint:fix": "markdownlint-cli2 --fix"
+  },
+  "devDependencies": {
+    "lint-staged": "16.2.7",
+    "markdownlint-cli2": "0.19.1"
+  },
+  "lint-staged": {
+    "**/*.md": "markdownlint-cli2"
+  }
+}
