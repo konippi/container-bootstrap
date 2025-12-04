@@ -1,11 +1,11 @@
 # veth (Virtual Ethernet Device)
 
 > [!IMPORTANT]
-> 最初に `colima ssh` で Colima VM (Linux) に SSH することを忘れない
+> 最初に `colima ssh` で Colima VM (Linux) に SSH で接続することを忘れない
 
 Network Namespace 間のトンネルとして機能する仮想的なネットワークインタフェース。
 
-<img width="400" alt="docker0" src="../../../asset/img/veth.png" />
+<img width="400" alt="veth" src="../../../asset/img/veth.png" />
 
 <h4>特徴</h4>
 

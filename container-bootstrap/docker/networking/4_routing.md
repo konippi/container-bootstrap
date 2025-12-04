@@ -1,7 +1,7 @@
 # ルーティング
 
 > [!IMPORTANT]
-> 最初に `colima ssh` で Colima VM (Linux) に SSH することを忘れない
+> 最初に `colima ssh` で Colima VM (Linux) に SSH で接続することを忘れない
 
 コンテナから外部ネットワークに接続できるよう IP マスカレードが行われるようルーティング設定されている。
 
@@ -30,4 +30,12 @@ $ sudo iptables-save
 
 上記を踏まえると以下の図でルーティングされていることがわかる。
 
-<img width="400" alt="docker0" src="../../../asset/img/docker-network-routing.png" />
+<img width="400" alt="docker_network_routing" src="../../../asset/img/docker_network_routing.png" />
+
+## クリーンアップ
+
+```shell
+$ docker rm -f $(docker ps -q | head -n 1)
+```
+
+<div align="right"><a href="./5_multihost_communication.md">次のページ</a></div>

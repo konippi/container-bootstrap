@@ -1,7 +1,7 @@
 # docker0
 
 > [!IMPORTANT]
-> 最初に `colima ssh` で Colima VM (Linux) に SSH することを忘れない
+> 最初に `colima ssh` で Colima VM (Linux) に SSH で接続することを忘れない
 
 ## docker0 とは
 
