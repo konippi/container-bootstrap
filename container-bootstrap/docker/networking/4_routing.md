@@ -13,7 +13,7 @@ $ ip addr show | grep docker0
     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
 ```
 
-1. iptable を確認する
+2. iptable を確認する
 
 ```shell
 $ sudo iptables-save

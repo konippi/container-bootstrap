@@ -28,7 +28,7 @@ $ ip link show | grep veth
 23: vethe0736e0@if2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master docker0 state UP mode DEFAULT group default
 ```
 
-1. コンテナ内からインタフェースを確認
+2. コンテナ内からインタフェースを確認
 
 ```shell
 # コンテナに入る
@@ -59,7 +59,7 @@ $ ls -la /proc/self/ns/net
 lrwxrwxrwx 1 konippi konippi 0 Dec  4 17:14 /proc/self/ns/net -> 'net:[4026531840]'
 ```
 
-1. コンテナの Network Namespace を確認
+2. コンテナの Network Namespace を確認
 
 ```shell
 # コンテナに入る

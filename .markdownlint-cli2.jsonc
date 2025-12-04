@@ -6,7 +6,8 @@
     "no-inline-html": false,
     "no-bare-urls": false,
     "fenced-code-language": false,
-    "commands-show-output": false
+    "commands-show-output": false,
+    "ol-prefix": false
   },
   "ignores": ["node_modules"]
 }
