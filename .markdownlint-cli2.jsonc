@@ -5,7 +5,8 @@
     "no-trailing-punctuation": false,
     "no-inline-html": false,
     "no-bare-urls": false,
-    "fenced-code-language": false
+    "fenced-code-language": false,
+    "commands-show-output": false
   },
   "ignores": ["node_modules"]
 }
